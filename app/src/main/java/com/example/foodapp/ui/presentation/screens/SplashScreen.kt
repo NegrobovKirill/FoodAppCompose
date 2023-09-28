@@ -26,6 +26,7 @@ import com.airbnb.lottie.compose.rememberLottieComposition
 import com.airbnb.lottie.compose.rememberLottieDynamicProperties
 import com.airbnb.lottie.compose.rememberLottieDynamicProperty
 import com.example.foodapp.R
+import com.example.foodapp.ui.theme.Orange
 import kotlinx.coroutines.delay
 
 @Composable
@@ -52,7 +53,7 @@ fun SplashScreen(navController: NavController){
 
     Column(modifier = Modifier
         .fillMaxSize()
-        .background(color = Color(0xFFF15412)),
+        .background(color = Orange),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally) {
 

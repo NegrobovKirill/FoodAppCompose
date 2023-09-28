@@ -1,7 +1,7 @@
 package com.example.foodapp.data.model.product
 
 data class ProductItem(
-    val id: Int,
+    var id: Int,
     val category_id: Int,
     val name: String,
     val description: String,
